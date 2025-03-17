@@ -1,0 +1,22 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: white;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+    button {
+      background: #ff4444;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    }
+  }
+}
