@@ -5,8 +5,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-login',
-  standalone: true,
-  imports:[BrowserModule],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })

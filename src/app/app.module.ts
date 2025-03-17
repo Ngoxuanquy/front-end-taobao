@@ -6,14 +6,11 @@ import { HeaderComponent } from './core/shared/components/header/header.componen
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     AppRoutingModule,
     HeaderComponent,
-    CommonModule
+    CommonModule,
+    AppComponent
   ],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }
