@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './core/pages/home/homePage/homePage.component';
 
 @NgModule({
+
   declarations: [
     AppComponent,
     HomePageComponent
@@ -14,5 +15,8 @@ import { HomePageComponent } from './core/pages/home/homePage/homePage.component
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+
+
 })
 export class AppModule { }

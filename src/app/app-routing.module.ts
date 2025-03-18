@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: '', component: HomePageComponent }, // Route mặc định
 ];
 
+
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
