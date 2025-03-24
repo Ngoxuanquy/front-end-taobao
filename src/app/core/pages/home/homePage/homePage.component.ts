@@ -14,11 +14,22 @@ export class HomePageComponent implements OnInit {
   productEx!: Product;
   ngOnInit() {
     this.productEx = {
-      name: 'Large Capacity Glass Cup',
-      features: ['Glass Cup', 'Anti-Scalding Heat-Resistant', 'Portable Bag'],
-      description: '2025 Model Glass Cup, Large Capacity, High-Definition Heat-Resistant Cup, With Handle, Small Body, High-Definition Heat Cup',
-      price: 68,
-      imageUrl: 'https://img.alicdn.com/bao/uploaded/i3/3547670321/O1CN01il1Qow1EF4Aw5V4Ya_!!3547670321.jpg_460x460q90.jpg_.webp'
+      id:'aaaaa',
+      product_name: 'Large Capacity Glass Cup',
+      product_thumb: 'https://bizweb.dktcdn.net/100/368/426/products/vay-trang-cup-nguc-dep.jpg?v=1739251870663',
+      product_description: '2025 Model Glass Cup, Large Capacity, High-Definition Heat-Resistant Cup, With Handle, Small Body, High-Definition Heat Cup',
+      product_price: 68,
+      product_quantity: 10,
+      product_type: 'Kitchenware',
+      product_attributes: {
+        material: 'Glass',
+        features: ['Anti-Scalding Heat-Resistant', 'Portable Bag'],
+        capacity: '500ml'
+      },
+      product_discount: 5,
+      product_ratingsAverage: 4.8,
+      isDraft: false,
+      isPublished: true,
     };
   }
 

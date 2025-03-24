@@ -1,13 +1,11 @@
-<div class="product-card" >
-  <a [href]="'/'">
-    <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image" />
+<div class="product-card">
+  <a [routerLink]="['/product', product.id]">
+    <img [src]="product.product_thumb" alt="{{ product.product_name }}" class="product-image" />
     <div class="product-details">
-      <h3>{{ product.name }}</h3>
-      <ul class="features">
-        <li *ngFor="let feature of product.features">{{ feature }}</li>
-      </ul>
-      <p class="description">{{ product.description }}</p>
-      <p class="price">¥{{ product.price }}</p>
+      <h3>{{ product.product_name }}</h3>
+      <p class="description">{{ product.product_description }}</p>
+      <p class="price">¥{{ product.product_discount }}</p>
     </div>
   </a>
+  
 </div>
